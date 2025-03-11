@@ -1,6 +1,7 @@
 <?php
 //Déclaration de ma fonction
-function addNumbers($number1, $number2) {
+function addNumbers($number1, $number2) { //je lui passe en paramètres deux nombres
+    //je déclare une variable $result qui va contenir le résultat de l'addition des deux nombres
     $result = $number1 + $number2;
     echo "Le résultat de l'addition de $number1 et $number2 est : $result";
 }
