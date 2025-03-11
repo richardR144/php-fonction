@@ -3,12 +3,13 @@
 function addNumbers($number1, $number2) { //je lui passe en paramètres deux nombres
     //je déclare une variable $result qui va contenir le résultat de l'addition des deux nombres
     $result = $number1 + $number2;
-    echo "Le résultat de l'addition de $number1 et $number2 est : $result";
+    echo "Le résultat de l'addition de $number1 et $number2 est : $result\n"; 
+    //j'affiche le résultat et les deux nombres passés en paramètres et \n pour un espacement entre les résultats sur la même ligne
 }
 
 // J'appelle la fonction avec différentes valeurs
-addNumbers(5, 3);       // Résultat attendu : 8  
-echo "<br>";
+addNumbers(5, 3);       // Résultat attendu : 8 
+echo "<br>"; //pour un retour à la ligne
 addNumbers(10, 20);     // Résultat attendu : 30
 echo "<br>";
 addNumbers(-7, 7);      // Résultat attendu : 0
