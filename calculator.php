@@ -41,9 +41,9 @@ $divideNumbers(15, 3);       // Résultat attendu : 5
 
 echo "<br>";    
 function racineNumbers($number1) {
-    $result = sqrt($number1);
+    $result = sqrt($number1);     //pour calculer la racine carrée d'un nombre, on utilise la fonction sqrt()
     echo "La racine carrée de $number1 est : $result\n";
 }
 echo "<br>";
-$racineNumbers(25);       // Résultat attendu : 5   
+$racineNumbers(25);      // résultat attendu : 5 car 5*5 = 25
 ?>
