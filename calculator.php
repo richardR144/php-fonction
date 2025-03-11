@@ -19,7 +19,7 @@ addNumbers(2.5, 3.5);   // Résultat attendu : 6.0
 
 function substractNumbers($number1, $number2) {
     $result = $number1 - $number2;
-    echo "Le résultat de la soustraction de $number1 et $number2 est : $result\n";
+    echo "Le résultat de la soustraction est de $number1 et $number2 est : $result\n";
 }
 
 $substractNumbers(15, 3);       // Résultat attendu : 12
@@ -47,3 +47,4 @@ function racineNumbers($number1) {
 echo "<br>";
 $racineNumbers(25);      // résultat attendu : 5 car 5*5 = 25
 ?>
+
