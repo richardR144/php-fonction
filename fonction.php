@@ -3,12 +3,12 @@
 // Tableau des articles
 $article1 = [
     'title' => 'Article 1',
-    'content' => 'This is the content of article 1'
+    'content' => 'lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec odio vitae'
 ];
 
 $article2 = [
     'title' => 'Article 2',
-    'content' => 'This is the content of article 2'
+    'content' => 'lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec odio vitae'
 ];
 
 // Titre principal et sous-titre
