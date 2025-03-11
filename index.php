@@ -34,6 +34,9 @@ foreach ($articles as $article) {
     //echo "<hr>";
 //}
 
+$description = "This is the description of the page but it is very long and we want to display only a part of it.";
+
+
 
 
 
